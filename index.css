@@ -20,13 +20,25 @@ body {
   background: rgba(255, 0, 0, 0.2);
 }
 .parallax2 {
-  background: url(photo2.JPG) no-repeat center;
+  background: url(ParallaxPhoto2.JPG) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
+  height: 700px;
 
-  filter: blur(20px);
+  filter: blur(10px);
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: -15px;
 }
+
+.container {
+  position: relative;
+
+  height: 700px;
+  overflow: hidden;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -53,7 +65,13 @@ body {
 
 .about_us {
   width: 100%;
-  height: 617px;
+  height: 632px;
+  background-color: #ffffff;
+}
+
+.gallery {
+  width: 100%;
+  height: 632px;
   background-color: #ffffff;
 }
 
