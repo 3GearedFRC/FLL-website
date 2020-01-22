@@ -6,7 +6,7 @@ body {
 }
 
 .parallax {
-  background: url(photo1.JPG) no-repeat center;
+  background: url(TeamPhoto.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
