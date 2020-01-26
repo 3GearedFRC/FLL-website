@@ -158,3 +158,22 @@ nav a {
 
   color: #8e8e8e;
 }
+
+.imgBox{
+  width: 21.739%;
+  float: left;
+  padding-left: 1%;  
+  padding-top: 1%;  
+  display: block;
+ 
+ }
+ .imgGallery:hover{
+  transform: scale(1.3,1.3);
+  transition: .3s transform;
+
+}
+.galleryPhotos{
+  margin-left: 8%;
+        width: 92%;
+        margin-top: 3%;
+}
