@@ -167,41 +167,40 @@ nav a {
   display: block;
   overflow: hidden;
 }
- 
-.imgGallery{
+
+.imgGallery {
   width: 100%;
   animation-name: out;
-  animation-duration:0.5s;
-  animation-iteration-count:1;
-
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
 }
-.imgGallery:hover{
+.imgGallery:hover {
   animation-name: in;
-  animation-duration:0.25s;
-  animation-iteration-count:1;
+  animation-duration: 0.25s;
+  animation-iteration-count: 1;
   transform: scale(1.3, 1.3);
-    transition: 0.25s transform;
-
+  transition: 0.25s transform;
 }
 @keyframes in {
-  from{transform: scale(1, 1);}
-  to{
-    transform: scale(1.3, 1.3);
-    transition: 0.25s transform;}
-}
-
-@keyframes out{
-  from{transform: scale(1.3, 1.3);
-    transition: 10s transform;}
-  to{
+  from {
     transform: scale(1, 1);
-    transition: 0.25s transform;}
-
+  }
+  to {
+    transform: scale(1.3, 1.3);
+    transition: 0.25s transform;
+  }
 }
 
-
-
-
+@keyframes out {
+  from {
+    transform: scale(1.3, 1.3);
+    transition: 10s transform;
+  }
+  to {
+    transform: scale(1, 1);
+    transition: 0.25s transform;
+  }
+}
 
 .galleryPhotos {
   margin-left: 8%;
