@@ -54,6 +54,8 @@ body {
   top: 50%;
   transform: translateY(-50%);
   -webkit-animation: rotation 2s infinite linear;
+}
+.cut {
   -webkit-clip-path: polygon(
     0% 0%,
     0% 100%,
@@ -69,10 +71,10 @@ body {
 }
 @-webkit-keyframes rotation {
   from {
-      -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
   }
   to {
-      -webkit-transform: rotate(22.5deg);
+    -webkit-transform: rotate(22.5deg);
   }
 }
 .center2 {
