@@ -156,7 +156,7 @@ nav a {
   color: #ffffff;
   position: relative;
   text-align: center;
-  top: 30%;
+  top: 60%;
   transform: translateY(-50%);
 }
 
@@ -212,4 +212,8 @@ nav a {
   margin-left: 8%;
   width: 92%;
   margin-top: 3%;
+}
+.splitLogo {
+  top: 50%;
+  transform: translateY(-50%);
 }
