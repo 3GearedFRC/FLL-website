@@ -78,7 +78,20 @@ html {
 
 .logo {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+
   background-color: blue;
+  height: auto;
+  width: auto;
+}
+
+.center1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.center2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
